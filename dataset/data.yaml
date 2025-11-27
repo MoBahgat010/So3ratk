@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Bechamel', 'Molokhya', 'ataif', 'besala', 'fool', 'konafa', 'koshary', 'pasposa', 'taamia']
+
+roboflow:
+  workspace: meto
+  project: egypt-food
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/meto/egypt-food/dataset/2
