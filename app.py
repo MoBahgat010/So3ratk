@@ -76,6 +76,9 @@ async def predict(file: UploadFile = File(...)):
                 confidence = float(box.conf[0])
                 class_id = int(box.cls[0])
                 class_name = CLASS_NAMES[class_id]
+
+                if class_name == "fool" or class_name == "konafa":
+                    continue
                 
                 detections.append({
                     "class": class_name,
