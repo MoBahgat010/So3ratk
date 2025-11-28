@@ -4,14 +4,11 @@ import os
 
 from ultralytics import YOLO
 
-model_path = "./projects/survive_depi/runs/detect/train4/weights/best.pt"
+model = YOLO("./projects/survive_depi/runs/detect/train4/weights/best.pt")
 
-model = YOLO(model_path)
-
-img_path = "./projects/survive_depi/molokheya.webp"
-
-im1 = cv2.imread(img_path)
-results = model.predict(source=im1, save=True, save_txt=True)
+# from ndarray
+im1 = cv2.imread("./projects/survive_depi/molokheya.webp")
+results = model.predict(source=im1, save=True, save_txt=True)  # save predictions as labels
 
 # from list of PIL/ndarray
 results = model.predict(source=[im1])
