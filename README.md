@@ -8,8 +8,6 @@ A complete web application for detecting Egyptian food items using a custom-trai
 - Molokhya
 - Ataif
 - Besala
-- Fool
-- Konafa
 - Koshary
 - Pasposa
 - Taamia
