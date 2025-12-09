@@ -1,6 +1,6 @@
 # 🍽️ Egyptian Food Detection Web Application
 
-A complete web application for detecting Egyptian food items using a custom-trained YOLOv8 model. Upload images and get real-time predictions with bounding boxes for 9 Egyptian food categories.
+A complete web application for detecting Egyptian food items using a custom-trained YOLOv8 model. Upload images and get real-time predictions with bounding boxes for 7 Egyptian food categories.
 
 ## 📋 Detected Food Categories
 
