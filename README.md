@@ -194,6 +194,7 @@ To modify the application:
 3. Update dependencies: Edit `requirements.txt`
 4. Rebuild Docker image after changes
 
+Thank You
 ---
 
 Made with ❤️ for Egyptian food lovers!
